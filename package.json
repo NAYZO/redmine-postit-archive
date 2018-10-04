@@ -1,0 +1,20 @@
+{
+  "name": "redmine-tickets",
+  "version": "1.0.0",
+  "description": "A command to print agile tickets from a redmine version",
+  "main": "index.js",
+  "author": "Lucas CHERIFI",
+  "license": "private",
+  "dependencies": {
+    "canvas": "^1.6.11",
+    "canvas-multiline-text": "^1.0.3",
+    "colors": "^1.2.5",
+    "inquirer": "^6.0.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "node-fetch": "^1.7.3",
+    "node-redmine": "^0.2.1",
+    "qrcode": "^1.2.0",
+    "querystring": "^0.2.0"
+  }
+}
