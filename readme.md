@@ -13,8 +13,8 @@ A la racine du projet :
 Editer le fichier `config.js` :
 
 - Pour `hostname`, `auth.username`, `auth.password`, `getTicketUrl`, demander ces infos à l'équipe.
-- Pour `auth.key`, la trouver ici : http://redmine.lefigaro.fr/my/account (dans la colonne de droite, cliquer sur "Afficher" en dessous de "Clé d'accès API")
-- Pour `project.parentId`, allez sur l'URL redmine votre projet et trouvez son id après /projects, ex: http://redmine.lefigaro.fr/projects/video-live => video-live
+- Pour `auth.key`, la trouver ici : exemple : http://local.redmine.fr/my/account (dans la colonne de droite, cliquer sur "Afficher" en dessous de "Clé d'accès API")
+- Pour `project.parentId`, allez sur l'URL redmine votre projet et trouvez son id après /projects, ex: http://local.redmine.fr/projects/toto => toto
 - Pour `projet.colors` chaque clef est l'ID d'un sous projet, chaque valeur est une des 16 couleurs du terminal (et des postits ;-)).
 
 Pour lancer la commande :
